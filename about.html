@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rocket Works</title>
+  <link rel="stylesheet" href="src/styles.css">
+
+  <style>
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 1s ease-out, transform 1s ease-out;
+    }
+    .fade-in.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="fixed w-full top-0 left-0 bg-hw-blue-dark bg-opacity-80 backdrop-blur-md shadow z-50">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center text-white">
+      <div class="text-xl font-bold">LOGO HERE</div>
+        <ul class="flex gap-3 text-sm font-medium">
+          <li><a href="#" class="hover:text-highlands-orchil-bright transition">Home</a></li>
+          <li><a href="/about" class="hover:text-highlands-orchil-bright transition">About Us<a></li>
+          <li><a href="/projects" class="hover:text-highlands-orchil-bright transition">Our Projects</a></li>
+          <li><a href="/join" class="hover:text-highlands-orchil-bright transition">Join Us</a></li>
+        </ul>
+    </div>
+  </nav>
+
+  <!-- Our mission -->
+  <section class="min-h-screen items-center justify-between flex px-60 bg-hw-blue-dark">
+    <div id="mission" class="flex-col text-center gap-10">
+      <div><h1 class="text-4xl md:text-6xl font-extrabold text-white pb-10">Our Mission</h1></div>
+      <div><p class="text-gray-300 mb-6 text-lg">We want to get rocketry at Heriot-Watt off the ground</p></div>
+      <div><a href="#" class="inline-block bg-orkney-sand hover:bg-orkney-sand-dark text-white text-sm px-7 py-3 rounded-full shadow-lg">Find out more</a></div>
+    </div>
+    <div><img class="w-100 h-100" src="../src/assets/raptor.png"></div>
+  </section>
+
+</body>
+</html>

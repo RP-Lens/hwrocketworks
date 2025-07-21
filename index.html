@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rocket Society</title>
+  <title>Rocket Works</title>
   <link rel="stylesheet" href="src/styles.css">
   <!--<script src="https://cdn.tailwindcss.com"></script>-->
 
@@ -20,14 +20,14 @@
 
 
   </style>
-
 </head>
+
 <body>
   <!-- Navbar -->
-  <nav class="fixed w-full top-0 left-0 bg-hwBD bg-opacity-80 backdrop-blur-md shadow z-50">
+  <nav class="fixed w-full top-0 left-0 bg-opacity-80 backdrop-blur-md shadow z-50">
     <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center text-white">
-      <div class="text-xl font-bold">LOGO HERE</div>
-        <ul class="flex gap-6 text-sm font-medium">
+      <div class=""><img src="./src/assets/logo.png" class="h-8 me-3" alt="Logo" /></div>
+        <ul class="flex gap-3 text-sm font-medium">
           <li><a href="#" class="hover:text-highlands-orchil-bright transition">Home</a></li>
           <li><a href="/about" class="hover:text-highlands-orchil-bright transition">About Us<a></li>
           <li><a href="/projects" class="hover:text-highlands-orchil-bright transition">Our Projects</a></li>
@@ -37,33 +37,108 @@
   </nav>
 
   <!-- Hero Section -->
-  <section class="min-h-screen flex items-center justify-center px-6 pt-28 bg-hw-blue-dark">
+  <section class="min-h-screen flex items-center justify-center px-6 pt-28 bg-[url('../src/assets/hero.jpg')] bg-fixed bg-cover bg-center bg-no-repeat">
     <div id="hero" class="text-center max-w-2xl fade-in">
       <h1 class="text-4xl md:text-6xl font-extrabold mb-4 text-white">Ignite Your Potential</h1>
       <p class="text-gray-300 mb-6 text-lg">Building the future of rocketry at Heriot-Watt University</p>
-      <a href="#" class="inline-block bg-castle-stone hover:bg-castle-stone-dark text-white text-sm px-6 py-3 rounded-full transition shadow-lg">
+      <a href="#" class="inline-block bg-orkney-sand hover:bg-orkney-sand-dark text-white text-sm px-6 py-3 rounded-full transition shadow-lg">
         Contact Us
       </a>
     </div>
   </section>
 
   <!-- Our mission -->
-  <section class="min-h-screen items-center justify-center flex px-10 bg-hw-blue-bright">
+  <section class="min-h-screen items-center justify-between flex px-60 bg-hw-blue-dark">
     <div id="mission" class="flex-col text-center gap-10">
       <div><h1 class="text-4xl md:text-6xl font-extrabold text-white pb-10">Our Mission</h1></div>
-      <div><p class="text-gray-300 mb-6 text-lg">We gon build rockets nd shit</p></div>
+      <div><p class="text-gray-300 mb-6 text-lg">We want to get rocketry at Heriot-Watt off the ground</p></div>
       <div><a href="#" class="inline-block bg-orkney-sand hover:bg-orkney-sand-dark text-white text-sm px-7 py-3 rounded-full shadow-lg">Find out more</a></div>
     </div>
+    <div><img class="w-100 h-100" src="../src/assets/raptor.png"></div>
   </section>
 
   <!-- Support us -->
-  <section class="min-h-screen items-center justify-center flex px-10 bg-hw-blue-dark">
+  <section class="min-h-screen items-center justify-center flex px-10 bg-[url('../src/assets/calton.webp')] bg-fixed bg-cover bg-center bg-no-repeat">
     <div id="mission" class="flex-col text-center gap-10">
-      <div><h1 class="text-4xl md:text-6xl font-extrabold text-white pb-10">Give us money</h1></div>
+      <div><h1 class="text-4xl md:text-6xl font-extrabold text-white pb-10">WE NEED YOUR MONEY</h1></div>
       <div><p class="text-gray-300 mb-6 text-lg">PLEASE PLEASE PLEASE PLEASE PLEASE</p></div>
-      <div><a href="#" class="inline-block bg-castle-stone hover:bg-castle-stone-dark text-white text-sm px-7 py-3 rounded-full shadow-lg">Subscribe</a></div>
+      <div><a href="#" class="inline-block bg-orkney-sand hover:bg-orkney-sand-dark text-white text-sm px-7 py-3 rounded-full shadow-lg">Subscribe</a></div>
     </div>
   </section>
+
+  <!--Footer -->
+  <footer class="bg-hw-blue-dark">
+      <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+          <div class="md:flex md:justify-between">
+            <div class="mb-6 md:mb-0">
+                <a href="#" class="flex items-center">
+                    <img src="./src/assets/logo.png" class="h-8 me-3" alt="Logo" />
+                </a>
+            </div>
+            <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold uppercase text-white">Resources</h2>
+                    <ul class="text-gray-400 font-medium">
+                        <li class="mb-4">
+                            <a href="https://youtu.be/OWR3zMaRKis?si=An6c2_9OPTNnG4Np" class="hover:underline">Reports?</a>
+                        </li>
+                        <li>
+                            <a href="https://tailwindcss.com/" class="hover:underline">Tailwind CSS</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold uppercase text-white">Contact us</h2>
+                    <ul class="text-gray-400 font-medium">
+                        <li class="mb-4">
+                            <a href="" class="hover:underline ">Not sure what</a>
+                        </li>
+                        <li>
+                            <a href="" class="hover:underline">to put here</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <span class="text-sm text-gray-500 sm:text-center">© 2026 Heriot-Watt Rocket Works™. All Rights Reserved.
+            </span>
+
+            <!--Social Media Icons-->
+            <div class="flex mt-4 sm:justify-center sm:mt-0">
+                <a href="#" class="text-gray-500 hover:text-highlands-orchil-bright">
+                  <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M16.98 0a6.9 6.9 0 0 1 5.08 1.98A6.94 6.94 0 0 1 24 7.02v9.96c0 2.08-.68 3.87-1.98 5.13A7.14 7.14 0 0 1 16.94 24H7.06a7.06 7.06 0 0 1-5.03-1.89A6.96 6.96 0 0 1 0 16.94V7.02C0 2.8 2.8 0 7.02 0h9.96zm.05 2.23H7.06c-1.45 0-2.7.43-3.53 1.25a4.82 4.82 0 0 0-1.3 3.54v9.92c0 1.5.43 2.7 1.3 3.58a5 5 0 0 0 3.53 1.25h9.88a5 5 0 0 0 3.53-1.25 4.73 4.73 0 0 0 1.4-3.54V7.02a5 5 0 0 0-1.3-3.49 4.82 4.82 0 0 0-3.54-1.3zM12 5.76c3.39 0 6.2 2.8 6.2 6.2a6.2 6.2 0 0 1-12.4 0 6.2 6.2 0 0 1 6.2-6.2zm0 2.22a3.99 3.99 0 0 0-3.97 3.97A3.99 3.99 0 0 0 12 15.92a3.99 3.99 0 0 0 3.97-3.97A3.99 3.99 0 0 0 12 7.98zm6.44-3.77a1.4 1.4 0 1 1 0 2.8 1.4 1.4 0 0 1 0-2.8z"/>
+                  </svg>
+                  <span class="sr-only">Instagram profile</span>
+                </a>
+
+                <a href="#" class="text-gray-500 hover:text-highlands-orchil-bright ms-5">
+                  <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zM8.951 9.404H6.165V17.5H8.95V9.404zm6.841-.192c-1.324 0-1.993.629-2.385 1.156l-.127.181V9.403h-2.786l.01.484c.006.636.007 1.748.005 2.93l-.015 4.683h2.786v-4.522c0-.242.018-.484.092-.657.202-.483.66-.984 1.43-.984.955 0 1.367.666 1.408 1.662l.003.168V17.5H19v-4.643c0-2.487-1.375-3.645-3.208-3.645zM7.576 5.5C6.623 5.5 6 6.105 6 6.899c0 .73.536 1.325 1.378 1.392l.18.006c.971 0 1.577-.621 1.577-1.398C9.116 6.105 8.53 5.5 7.576 5.5z"/>
+                  </svg>
+                  <span class="sr-only">LinkedIn profile</span>
+                </a>
+
+                <a href="#" class="text-gray-500 hover:text-highlands-orchil-bright ms-5">
+                  <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M22.5 9.84202C20.4357 9.84696 18.4221 9.20321 16.7435 8.00171V16.3813C16.7429 17.9333 16.2685 19.4482 15.3838 20.7233C14.499 21.9984 13.246 22.973 11.7923 23.5168C10.3387 24.0606 8.75362 24.1477 7.24914 23.7664C5.74466 23.3851 4.39245 22.5536 3.37333 21.383C2.3542 20.2125 1.71674 18.7587 1.54617 17.2161C1.3756 15.6735 1.68007 14.1156 2.41884 12.7507C3.15762 11.3858 4.2955 10.279 5.68034 9.57823C7.06517 8.87746 8.63095 8.61616 10.1683 8.82927V13.0439C9.4648 12.8227 8.70938 12.8293 8.0099 13.063C7.31041 13.2966 6.70265 13.7453 6.2734 14.345C5.84415 14.9446 5.61536 15.6646 5.6197 16.402C5.62404 17.1395 5.8613 17.8567 6.29759 18.4512C6.73387 19.0458 7.34688 19.4873 8.04906 19.7127C8.75125 19.9381 9.5067 19.9359 10.2075 19.7063C10.9084 19.4768 11.5188 19.0316 11.9515 18.4345C12.3843 17.8374 12.6173 17.1188 12.6173 16.3813V0H16.7435C16.7406 0.348435 16.7698 0.696395 16.8307 1.03948V1.03948C16.9741 1.80537 17.2722 2.53396 17.7068 3.18068C18.1415 3.8274 18.7035 4.37867 19.3585 4.80075C20.2903 5.41688 21.3829 5.74528 22.5 5.74505V9.84202Z"/>
+                  </svg>
+                  <span class="sr-only">TikTok profile</span>
+                </a>
+
+                <a href="#" class="text-gray-500 hover:text-highlands-orchil-bright ms-5">
+                    <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                          <path fill-rule="evenodd" d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z" clip-rule="evenodd"/>
+                    </svg>
+                    <span class="sr-only">GitHub account</span>
+                </a>
+            </div>
+        </div>
+      </div>
+  </footer>
+
 
 <script>
     window.addEventListener('DOMContentLoaded', () => {
